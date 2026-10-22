@@ -1,0 +1,943 @@
+{
+ "cases": [
+  {
+   "fn": "sheets",
+   "args": [
+    "30",
+    "5",
+    "2"
+   ],
+   "expect": "The 30 copies of 5 pages at 2 pages a sheet take 3 sheets a copy, 90 sheets in all."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "90",
+    "500"
+   ],
+   "expect": "The 90 sheets in reams of 500 take 1 ream, leaving 410 sheets spare."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "30",
+    "8"
+   ],
+   "expect": "The 30 copies in stacks of 8 make 4 stacks, the last stack holding 6."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "7.50",
+    "90",
+    "0.04"
+   ],
+   "expect": "The 1 ream at $7.50 and 90 sheets at $0.04 cost $11.10, reams $7.50 and sheets $3.60."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 copy of 1 page at 1 page a sheet take 1 sheet a copy, 1 sheet in all."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 sheet in reams of 1 take 1 ream, leaving 0 sheets spare."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 copy in stacks of 1 make 1 stack, the last stack holding 1."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "32",
+    "8"
+   ],
+   "expect": "The 32 copies in stacks of 8 make 4 stacks, the last stack holding 8."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1",
+    "0.01"
+   ],
+   "expect": "The 1 ream at $0.01 and 1 sheet at $0.01 cost $0.02, reams $0.01 and sheets $0.01."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "6246",
+    "182",
+    "4"
+   ],
+   "expect": "The 6246 copies of 182 pages at 4 pages a sheet take 46 sheets a copy, 287316 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "2049",
+    "757",
+    "1"
+   ],
+   "expect": "The 2049 copies of 757 pages at 1 page a sheet take 757 sheets a copy, 1551093 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "5382",
+    "48",
+    "2"
+   ],
+   "expect": "The 5382 copies of 48 pages at 2 pages a sheet take 24 sheets a copy, 129168 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "6618",
+    "427",
+    "3"
+   ],
+   "expect": "The 6618 copies of 427 pages at 3 pages a sheet take 143 sheets a copy, 946374 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "6197",
+    "616",
+    "3"
+   ],
+   "expect": "The 6197 copies of 616 pages at 3 pages a sheet take 206 sheets a copy, 1276582 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "2333",
+    "665",
+    "1"
+   ],
+   "expect": "The 2333 copies of 665 pages at 1 page a sheet take 665 sheets a copy, 1551445 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "517",
+    "509",
+    "2"
+   ],
+   "expect": "The 517 copies of 509 pages at 2 pages a sheet take 255 sheets a copy, 131835 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "9416",
+    "474",
+    "4"
+   ],
+   "expect": "The 9416 copies of 474 pages at 4 pages a sheet take 119 sheets a copy, 1120504 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "3194",
+    "747",
+    "3"
+   ],
+   "expect": "The 3194 copies of 747 pages at 3 pages a sheet take 249 sheets a copy, 795306 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "3081",
+    "588",
+    "3"
+   ],
+   "expect": "The 3081 copies of 588 pages at 3 pages a sheet take 196 sheets a copy, 603876 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "405",
+    "865",
+    "1"
+   ],
+   "expect": "The 405 copies of 865 pages at 1 page a sheet take 865 sheets a copy, 350325 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "9856",
+    "912",
+    "4"
+   ],
+   "expect": "The 9856 copies of 912 pages at 4 pages a sheet take 228 sheets a copy, 2247168 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "2511",
+    "657",
+    "3"
+   ],
+   "expect": "The 2511 copies of 657 pages at 3 pages a sheet take 219 sheets a copy, 549909 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "4247",
+    "673",
+    "3"
+   ],
+   "expect": "The 4247 copies of 673 pages at 3 pages a sheet take 225 sheets a copy, 955575 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "535",
+    "917",
+    "3"
+   ],
+   "expect": "The 535 copies of 917 pages at 3 pages a sheet take 306 sheets a copy, 163710 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "5560",
+    "121",
+    "3"
+   ],
+   "expect": "The 5560 copies of 121 pages at 3 pages a sheet take 41 sheets a copy, 227960 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "6271",
+    "851",
+    "3"
+   ],
+   "expect": "The 6271 copies of 851 pages at 3 pages a sheet take 284 sheets a copy, 1780964 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "4787",
+    "948",
+    "4"
+   ],
+   "expect": "The 4787 copies of 948 pages at 4 pages a sheet take 237 sheets a copy, 1134519 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "1690",
+    "415",
+    "1"
+   ],
+   "expect": "The 1690 copies of 415 pages at 1 page a sheet take 415 sheets a copy, 701350 sheets in all."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "6014",
+    "543",
+    "4"
+   ],
+   "expect": "The 6014 copies of 543 pages at 4 pages a sheet take 136 sheets a copy, 817904 sheets in all."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "877558",
+    "2571"
+   ],
+   "expect": "The 877558 sheets in reams of 2571 take 342 reams, leaving 1724 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "3351290",
+    "2970"
+   ],
+   "expect": "The 3351290 sheets in reams of 2970 take 1129 reams, leaving 1840 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "1318261",
+    "8398"
+   ],
+   "expect": "The 1318261 sheets in reams of 8398 take 157 reams, leaving 225 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "8783855",
+    "32"
+   ],
+   "expect": "The 8783855 sheets in reams of 32 take 274496 reams, leaving 17 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "7063089",
+    "9493"
+   ],
+   "expect": "The 7063089 sheets in reams of 9493 take 745 reams, leaving 9196 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "4335315",
+    "7007"
+   ],
+   "expect": "The 4335315 sheets in reams of 7007 take 619 reams, leaving 2018 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "5887592",
+    "5956"
+   ],
+   "expect": "The 5887592 sheets in reams of 5956 take 989 reams, leaving 2892 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "9818491",
+    "2390"
+   ],
+   "expect": "The 9818491 sheets in reams of 2390 take 4109 reams, leaving 2019 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "4106378",
+    "6042"
+   ],
+   "expect": "The 4106378 sheets in reams of 6042 take 680 reams, leaving 2182 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "5489817",
+    "3027"
+   ],
+   "expect": "The 5489817 sheets in reams of 3027 take 1814 reams, leaving 1161 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "2876025",
+    "3935"
+   ],
+   "expect": "The 2876025 sheets in reams of 3935 take 731 reams, leaving 460 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "9523993",
+    "7423"
+   ],
+   "expect": "The 9523993 sheets in reams of 7423 take 1284 reams, leaving 7139 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "7208856",
+    "1972"
+   ],
+   "expect": "The 7208856 sheets in reams of 1972 take 3656 reams, leaving 776 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "3297978",
+    "6833"
+   ],
+   "expect": "The 3297978 sheets in reams of 6833 take 483 reams, leaving 2361 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "1780507",
+    "8494"
+   ],
+   "expect": "The 1780507 sheets in reams of 8494 take 210 reams, leaving 3233 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "147832",
+    "9095"
+   ],
+   "expect": "The 147832 sheets in reams of 9095 take 17 reams, leaving 6783 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "7362133",
+    "2746"
+   ],
+   "expect": "The 7362133 sheets in reams of 2746 take 2682 reams, leaving 2639 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "3693574",
+    "2617"
+   ],
+   "expect": "The 3693574 sheets in reams of 2617 take 1412 reams, leaving 1630 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "5132017",
+    "1872"
+   ],
+   "expect": "The 5132017 sheets in reams of 1872 take 2742 reams, leaving 1007 sheets spare."
+  },
+  {
+   "fn": "ream",
+   "args": [
+    "6268055",
+    "3314"
+   ],
+   "expect": "The 6268055 sheets in reams of 3314 take 1892 reams, leaving 2033 sheets spare."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "6668",
+    "4888"
+   ],
+   "expect": "The 6668 copies in stacks of 4888 make 2 stacks, the last stack holding 1780."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "653",
+    "9215"
+   ],
+   "expect": "The 653 copies in stacks of 9215 make 1 stack, the last stack holding 653."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "575",
+    "88"
+   ],
+   "expect": "The 575 copies in stacks of 88 make 7 stacks, the last stack holding 47."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "3940",
+    "4666"
+   ],
+   "expect": "The 3940 copies in stacks of 4666 make 1 stack, the last stack holding 3940."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "6958",
+    "808"
+   ],
+   "expect": "The 6958 copies in stacks of 808 make 9 stacks, the last stack holding 494."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "2110",
+    "2306"
+   ],
+   "expect": "The 2110 copies in stacks of 2306 make 1 stack, the last stack holding 2110."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "6438",
+    "5280"
+   ],
+   "expect": "The 6438 copies in stacks of 5280 make 2 stacks, the last stack holding 1158."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "8271",
+    "5547"
+   ],
+   "expect": "The 8271 copies in stacks of 5547 make 2 stacks, the last stack holding 2724."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "5513",
+    "7015"
+   ],
+   "expect": "The 5513 copies in stacks of 7015 make 1 stack, the last stack holding 5513."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "2535",
+    "6169"
+   ],
+   "expect": "The 2535 copies in stacks of 6169 make 1 stack, the last stack holding 2535."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "489",
+    "3701"
+   ],
+   "expect": "The 489 copies in stacks of 3701 make 1 stack, the last stack holding 489."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "4328",
+    "5214"
+   ],
+   "expect": "The 4328 copies in stacks of 5214 make 1 stack, the last stack holding 4328."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "8190",
+    "3512"
+   ],
+   "expect": "The 8190 copies in stacks of 3512 make 3 stacks, the last stack holding 1166."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "6834",
+    "1864"
+   ],
+   "expect": "The 6834 copies in stacks of 1864 make 4 stacks, the last stack holding 1242."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "4304",
+    "3688"
+   ],
+   "expect": "The 4304 copies in stacks of 3688 make 2 stacks, the last stack holding 616."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "8157",
+    "8011"
+   ],
+   "expect": "The 8157 copies in stacks of 8011 make 2 stacks, the last stack holding 146."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "3383",
+    "892"
+   ],
+   "expect": "The 3383 copies in stacks of 892 make 4 stacks, the last stack holding 707."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "8201",
+    "7278"
+   ],
+   "expect": "The 8201 copies in stacks of 7278 make 2 stacks, the last stack holding 923."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "7363",
+    "8744"
+   ],
+   "expect": "The 7363 copies in stacks of 8744 make 1 stack, the last stack holding 7363."
+  },
+  {
+   "fn": "stack",
+   "args": [
+    "9628",
+    "8801"
+   ],
+   "expect": "The 9628 copies in stacks of 8801 make 2 stacks, the last stack holding 827."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "55354",
+    "378.94",
+    "3942720",
+    "6292.94"
+   ],
+   "expect": "The 55354 reams at $378.94 and 3942720 sheets at $6292.94 cost $24832276241.56, reams $20975844.76 and sheets $24811300396.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21491",
+    "2660.57",
+    "6318100",
+    "4784.9"
+   ],
+   "expect": "The 21491 reams at $2660.57 and 6318100 sheets at $4784.90 cost $30288654999.87, reams $57178309.87 and sheets $30231476690.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78535",
+    "2430.19",
+    "4567542",
+    "9876.06"
+   ],
+   "expect": "The 78535 reams at $2430.19 and 4567542 sheets at $9876.06 cost $45300173816.17, reams $190854971.65 and sheets $45109318844.52."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56004",
+    "5231.2",
+    "1732605",
+    "3594.03"
+   ],
+   "expect": "The 56004 reams at $5231.20 and 1732605 sheets at $3594.03 cost $6520002472.95, reams $292968124.80 and sheets $6227034348.15."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5278",
+    "7646.06",
+    "7077681",
+    "9311.1"
+   ],
+   "expect": "The 5278 reams at $7646.06 and 7077681 sheets at $9311.10 cost $65941351463.78, reams $40355904.68 and sheets $65900995559.10."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53460",
+    "6809.67",
+    "3030022",
+    "4382.31"
+   ],
+   "expect": "The 53460 reams at $6809.67 and 3030022 sheets at $4382.31 cost $13642540669.02, reams $364044958.20 and sheets $13278495710.82."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72307",
+    "3203.76",
+    "7721805",
+    "2645.53"
+   ],
+   "expect": "The 72307 reams at $3203.76 and 7721805 sheets at $2645.53 cost $20659921055.97, reams $231654274.32 and sheets $20428266781.65."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30107",
+    "669.92",
+    "4393749",
+    "7500.23"
+   ],
+   "expect": "The 30107 reams at $669.92 and 4393749 sheets at $7500.23 cost $32974297343.71, reams $20169281.44 and sheets $32954128062.27."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "14148",
+    "8206",
+    "174212",
+    "5123.73"
+   ],
+   "expect": "The 14148 reams at $8206.00 and 174212 sheets at $5123.73 cost $1008713738.76, reams $116098488.00 and sheets $892615250.76."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73943",
+    "1417.09",
+    "3777858",
+    "5189.17"
+   ],
+   "expect": "The 73943 reams at $1417.09 and 3777858 sheets at $5189.17 cost $19708731283.73, reams $104783885.87 and sheets $19603947397.86."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41145",
+    "4027.31",
+    "8272372",
+    "8990.02"
+   ],
+   "expect": "The 41145 reams at $4027.31 and 8272372 sheets at $8990.02 cost $74534493397.39, reams $165703669.95 and sheets $74368789727.44."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31212",
+    "8425.3",
+    "220312",
+    "251.3"
+   ],
+   "expect": "The 31212 reams at $8425.30 and 220312 sheets at $251.30 cost $318334869.20, reams $262970463.60 and sheets $55364405.60."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "7721",
+    "3206.57",
+    "1690241",
+    "2883.43"
+   ],
+   "expect": "The 7721 reams at $3206.57 and 1690241 sheets at $2883.43 cost $4898449533.60, reams $24757926.97 and sheets $4873691606.63."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56129",
+    "7977.69",
+    "3361822",
+    "8529.65"
+   ],
+   "expect": "The 56129 reams at $7977.69 and 3361822 sheets at $8529.65 cost $29122944784.31, reams $447779762.01 and sheets $28675165022.30."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "353",
+    "5216.06",
+    "8638140",
+    "9900.61"
+   ],
+   "expect": "The 353 reams at $5216.06 and 8638140 sheets at $9900.61 cost $85524696534.58, reams $1841269.18 and sheets $85522855265.40."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84058",
+    "3581.15",
+    "228799",
+    "7153.81"
+   ],
+   "expect": "The 84058 reams at $3581.15 and 228799 sheets at $7153.81 cost $1937808880.89, reams $301024306.70 and sheets $1636784574.19."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26947",
+    "8420.39",
+    "8498661",
+    "4287.22"
+   ],
+   "expect": "The 26947 reams at $8420.39 and 8498661 sheets at $4287.22 cost $36662533661.75, reams $226904249.33 and sheets $36435629412.42."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39679",
+    "8716.86",
+    "7328360",
+    "2121.38"
+   ],
+   "expect": "The 39679 reams at $8716.86 and 7328360 sheets at $2121.38 cost $15892112624.74, reams $345876287.94 and sheets $15546236336.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8081",
+    "2746.01",
+    "6355261",
+    "2487.79"
+   ],
+   "expect": "The 8081 reams at $2746.01 and 6355261 sheets at $2487.79 cost $15832745270.00, reams $22190506.81 and sheets $15810554763.19."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59922",
+    "1282.44",
+    "1942979",
+    "1785.68"
+   ],
+   "expect": "The 59922 reams at $1282.44 and 1942979 sheets at $1785.68 cost $3546385110.40, reams $76846369.68 and sheets $3469538740.72."
+  }
+ ],
+ "errors": [
+  [
+   "sheets",
+   [
+    "0",
+    "5",
+    "2"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "10001",
+    "5",
+    "2"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "30",
+    "0",
+    "2"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "30",
+    "1001",
+    "2"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "30",
+    "5",
+    "0"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "30",
+    "5",
+    "5"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "30.5",
+    "5",
+    "2"
+   ]
+  ],
+  [
+   "ream",
+   [
+    "0",
+    "500"
+   ]
+  ],
+  [
+   "ream",
+   [
+    "10000001",
+    "500"
+   ]
+  ],
+  [
+   "ream",
+   [
+    "90",
+    "0"
+   ]
+  ],
+  [
+   "ream",
+   [
+    "90",
+    "10001"
+   ]
+  ],
+  [
+   "stack",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "stack",
+   [
+    "30",
+    "0"
+   ]
+  ],
+  [
+   "stack",
+   [
+    "30",
+    "10001"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "7.5",
+    "90",
+    "0.04"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1",
+    "0",
+    "90",
+    "0.04"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1",
+    "7.5",
+    "0",
+    "0.04"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1",
+    "7.5",
+    "90",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1",
+    "7.5",
+    "90",
+    "10000.01"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "1",
+    "7.555",
+    "90",
+    "0.04"
+   ]
+  ]
+ ]
+}
